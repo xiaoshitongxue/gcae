@@ -1,0 +1,7 @@
+def mp(str1):
+legth=len(str1)
+for i in range(legth -1):
+for j in range(legth-i-1):
+if str1[j]>str1[j+1]:
+str1[j],str1[j+1]=str[j+1],str[j]
+return str1
